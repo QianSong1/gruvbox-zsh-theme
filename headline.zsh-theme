@@ -93,9 +93,9 @@ HEADLINE_HOST_TO_PATH=': '
 HEADLINE_PATH_TO_BRANCH=' | ' # only used when no padding between <path> and <branch>
 HEADLINE_PATH_TO_PAD='' # used if padding between <path> and <branch>
 HEADLINE_PAD_TO_BRANCH='' # used if padding between <path> and <branch>
-HEADLINE_BRANCH_TO_STATUS=' ['
+HEADLINE_BRANCH_TO_STATUS=' ('
 HEADLINE_STATUS_TO_STATUS='|' # between each status section, consider "]"
-HEADLINE_STATUS_END=']'
+HEADLINE_STATUS_END=')'
 
 # Info padding character
 HEADLINE_PAD_CHAR=' ' # repeated for space between <path> and <branch>
@@ -151,11 +151,12 @@ HEADLINE_DO_GIT_STATUS_COUNTS=true # set "true" to show count of each status
 HEADLINE_DO_GIT_STATUS_OMIT_ONE=false # set "true" to omit the status number when it is 1
 
 # Prompt
-HEADLINE_PROMPT='%☠️ ' # consider "%#"
+HEADLINE_PROMPT='%247F❀✿❉❃＊*❦❧☁☂☃☄♨✈♫♪♩☁~
+%247F╰─%2410F ' # consider "%#"
 HEADLINE_RPROMPT=''
 
 # Clock (prepends to RPROMPT)
-HEADLINE_DO_CLOCK=true # whether to show the clock
+HEADLINE_DO_CLOCK=false # whether to show the clock
 HEADLINE_STYLE_CLOCK=$faint
 HEADLINE_CLOCK_FORMAT='%H:%M:%S' # consider "%+" for full date (see man strftime)
 
