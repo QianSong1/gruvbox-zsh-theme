@@ -20,3 +20,7 @@ The ZSH theme based on [agnoster's Theme](https://gist.github.com/agnoster/37128
 
 # License
   [MIT](https://en.wikipedia.org/wiki/MIT_License)
+
+
+# headline-zsh-theme
+https://github.com/Moarram/headline
