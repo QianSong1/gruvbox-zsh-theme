@@ -80,10 +80,10 @@ HEADLINE_GIT_BRANCH_CMD='headline_git_branch'
 HEADLINE_GIT_STATUS_CMD='headline_git_status'
 
 # Info symbols (optional)
-HEADLINE_USER_PREFIX='' # consider " "
-HEADLINE_HOST_PREFIX='' # consider " "
-HEADLINE_PATH_PREFIX='' # consider " "
-HEADLINE_BRANCH_PREFIX='' # consider " "
+HEADLINE_USER_PREFIX=' ' # consider " "
+HEADLINE_HOST_PREFIX=' ' # consider " "
+HEADLINE_PATH_PREFIX=' ' # consider " "
+HEADLINE_BRANCH_PREFIX=' ' # consider " "
 
 # Info joints
 HEADLINE_USER_BEGIN=''
@@ -118,7 +118,7 @@ HEADLINE_INFO_MODE=precmd # precmd|prompt (whether info line is in PROMPT or pri
   # use "prompt" for Ctrl+L to clear properly (but window resize eats previous output)
 
 # Separator options
-HEADLINE_LINE_MODE=on # on|auto|off (whether to print the line above the prompt)
+HEADLINE_LINE_MODE=off # on|auto|off (whether to print the line above the prompt)
 
 # Separator character
 HEADLINE_LINE_CHAR='_' # repeated for line above information
@@ -147,7 +147,7 @@ HEADLINE_GIT_CONFLICTS='✘' # consider "%{$red%}✘"
 HEADLINE_GIT_CLEAN='' # consider "✓" or "✔"
 
 # Git status options
-HEADLINE_DO_GIT_STATUS_COUNTS=false # set "true" to show count of each status
+HEADLINE_DO_GIT_STATUS_COUNTS=true # set "true" to show count of each status
 HEADLINE_DO_GIT_STATUS_OMIT_ONE=false # set "true" to omit the status number when it is 1
 
 # Prompt
@@ -155,12 +155,12 @@ HEADLINE_PROMPT='%(#.#.%(!.!.$)) ' # consider "%#"
 HEADLINE_RPROMPT=''
 
 # Clock (prepends to RPROMPT)
-HEADLINE_DO_CLOCK=false # whether to show the clock
+HEADLINE_DO_CLOCK=true # whether to show the clock
 HEADLINE_STYLE_CLOCK=$faint
 HEADLINE_CLOCK_FORMAT='%l:%M:%S %p' # consider "%+" for full date (see man strftime)
 
 # Exit code
-HEADLINE_DO_ERR=false # whether to show non-zero exit codes above prompt
+HEADLINE_DO_ERR=true # whether to show non-zero exit codes above prompt
 HEADLINE_DO_ERR_INFO=true # whether to show exit code meaning as well
 HEADLINE_ERR_PREFIX='→ '
 HEADLINE_STYLE_ERR=$italic$faint
