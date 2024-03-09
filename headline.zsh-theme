@@ -98,7 +98,7 @@ HEADLINE_STATUS_TO_STATUS='|' # between each status section, consider "]"
 HEADLINE_STATUS_END=')'
 
 # Info padding character
-HEADLINE_PAD_CHAR=' ' # repeated for space between <path> and <branch>
+HEADLINE_PAD_CHAR='❧' # repeated for space between <path> and <branch>
 
 # Info truncation symbol
 HEADLINE_TRUNC_PREFIX='...' # shown where <path> or <branch> is truncated, consider "…"
@@ -151,7 +151,7 @@ HEADLINE_DO_GIT_STATUS_COUNTS=true # set "true" to show count of each status
 HEADLINE_DO_GIT_STATUS_OMIT_ONE=false # set "true" to omit the status number when it is 1
 
 # Prompt
-HEADLINE_PROMPT='%247F❀＊*❦❧☁☂☃☄♨✈♪~
+HEADLINE_PROMPT='%247F❦
 %247F╰─%2410F ' # consider "%#"
 HEADLINE_RPROMPT=''
 
