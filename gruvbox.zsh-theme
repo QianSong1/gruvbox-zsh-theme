@@ -280,8 +280,8 @@ build_prompt() {
   prompt_end
 }
 
-NEW_LINE='
-%242F
+first_line='%242F╭─'
+new_line='
 %242F╰─%2410F '
 
-PROMPT='%{%f%b%k%}$(build_prompt)${NEW_LINE} '
+PROMPT='%{%f%b%k%}${first_line}$(build_prompt)${new_line} '
