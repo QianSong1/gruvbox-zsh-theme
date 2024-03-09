@@ -94,7 +94,7 @@ HEADLINE_PATH_TO_BRANCH=' | ' # only used when no padding between <path> and <br
 HEADLINE_PATH_TO_PAD='' # used if padding between <path> and <branch>
 HEADLINE_PAD_TO_BRANCH='' # used if padding between <path> and <branch>
 HEADLINE_BRANCH_TO_STATUS=' ['
-HEADLINE_STATUS_TO_STATUS='' # between each status section, consider "]"
+HEADLINE_STATUS_TO_STATUS='|' # between each status section, consider "]"
 HEADLINE_STATUS_END=']'
 
 # Info padding character
@@ -144,7 +144,7 @@ HEADLINE_GIT_AHEAD='↑'
 HEADLINE_GIT_DIVERGED='↕'
 HEADLINE_GIT_STASHED='*'
 HEADLINE_GIT_CONFLICTS='✘' # consider "%{$red%}✘"
-HEADLINE_GIT_CLEAN='' # consider "✓" or "✔"
+HEADLINE_GIT_CLEAN='✔' # consider "✓" or "✔"
 
 # Git status options
 HEADLINE_DO_GIT_STATUS_COUNTS=true # set "true" to show count of each status
@@ -157,7 +157,7 @@ HEADLINE_RPROMPT=''
 # Clock (prepends to RPROMPT)
 HEADLINE_DO_CLOCK=true # whether to show the clock
 HEADLINE_STYLE_CLOCK=$faint
-HEADLINE_CLOCK_FORMAT='%l:%M:%S %p' # consider "%+" for full date (see man strftime)
+HEADLINE_CLOCK_FORMAT='%H:%M:%S' # consider "%+" for full date (see man strftime)
 
 # Exit code
 HEADLINE_DO_ERR=true # whether to show non-zero exit codes above prompt
