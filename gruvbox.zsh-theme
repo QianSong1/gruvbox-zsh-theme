@@ -284,4 +284,4 @@ first_line='%242F╭─'
 new_line='
 %242F╰─%2410F '
 
-PROMPT='%{%f%b%k%}$first_line$(build_prompt)$new_line '
+PROMPT='%{%f%b%k%}${first_line}$(build_prompt)${new_line} '
