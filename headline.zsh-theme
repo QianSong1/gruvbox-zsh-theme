@@ -80,9 +80,9 @@ HEADLINE_GIT_BRANCH_CMD='headline_git_branch'
 HEADLINE_GIT_STATUS_CMD='headline_git_status'
 
 # Info symbols (optional)
-HEADLINE_USER_PREFIX=' ' # consider " "
-HEADLINE_HOST_PREFIX=' ' # consider " "
-HEADLINE_PATH_PREFIX=' ' # consider " "
+HEADLINE_USER_PREFIX=' ' # consider " "
+HEADLINE_HOST_PREFIX='󰌽 ' # consider " "
+HEADLINE_PATH_PREFIX='󰉋 ' # consider " "
 HEADLINE_BRANCH_PREFIX=' ' # consider " "
 
 # Info joints
@@ -106,8 +106,8 @@ HEADLINE_TRUNC_PREFIX='...' # shown where <path> or <branch> is truncated, consi
 # Info styles
 HEADLINE_STYLE_DEFAULT='' # style applied to entire info line
 HEADLINE_STYLE_JOINT=$light_black
-HEADLINE_STYLE_USER=$bold$red
-HEADLINE_STYLE_HOST=$bold$yellow
+HEADLINE_STYLE_USER=$bold$magenta
+HEADLINE_STYLE_HOST=$bold$green
 HEADLINE_STYLE_PATH=$bold$blue
 HEADLINE_STYLE_BRANCH=$bold$cyan
 HEADLINE_STYLE_STATUS=$bold$magenta
@@ -151,7 +151,7 @@ HEADLINE_DO_GIT_STATUS_COUNTS=true # set "true" to show count of each status
 HEADLINE_DO_GIT_STATUS_OMIT_ONE=false # set "true" to omit the status number when it is 1
 
 # Prompt
-HEADLINE_PROMPT='%{$magenta%}❀＊*❦❧☁☂☃☄♨✈♪~%{$reset%}
+HEADLINE_PROMPT='%{$cyan%}❀＊*❦❧☁☂☃☄♨✈♪~%{$reset%}
 %(?:%{$bold$light_green%}➜ :%{$bold$light_red%}➜ )%{$reset%}' # consider "%#"
 HEADLINE_RPROMPT=''
 
