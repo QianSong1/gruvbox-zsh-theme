@@ -24,3 +24,5 @@ The ZSH theme based on [agnoster's Theme](https://gist.github.com/agnoster/37128
 
 # headline-zsh-theme
 https://github.com/Moarram/headline
+
+![image-20240324155622260](img/image-20240324155622260.png) 
