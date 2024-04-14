@@ -98,7 +98,7 @@ HEADLINE_STATUS_TO_STATUS='|' # between each status section, consider "]"
 HEADLINE_STATUS_END=')'
 
 # Info padding character
-HEADLINE_PAD_CHAR='❧' # repeated for space between <path> and <branch>
+HEADLINE_PAD_CHAR='-' # repeated for space between <path> and <branch>
 
 # Info truncation symbol
 HEADLINE_TRUNC_PREFIX='...' # shown where <path> or <branch> is truncated, consider "…"
