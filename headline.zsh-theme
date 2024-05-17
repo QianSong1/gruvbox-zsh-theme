@@ -144,7 +144,7 @@ HEADLINE_GIT_AHEAD='↑'
 HEADLINE_GIT_DIVERGED='↕'
 HEADLINE_GIT_STASHED='*'
 HEADLINE_GIT_CONFLICTS='✘' # consider "%{$red%}✘"
-HEADLINE_GIT_CLEAN='✔' # consider "✓" or "✔"
+HEADLINE_GIT_CLEAN='✓' # consider "✓" or "✔"
 
 # Git status options
 HEADLINE_DO_GIT_STATUS_COUNTS=true # set "true" to show count of each status
